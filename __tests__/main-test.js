@@ -1,5 +1,5 @@
 jest
-    .unmock('../client/components/content')
+  .unmock('../client/components/content')
     .unmock('fs')
     .unmock('path');
 
