@@ -6,9 +6,10 @@
   "scripts": {
     "prestart": "npm run test",
     "start": "node server",
+    "jscs": "jscs ./client --preset=airbnb",
     "lint": "eslint ./client",
     "compile": "browserify -t [ babelify --presets [ react ] ] client/main.js -o client/compiled.js",
-    "pretest": "npm run lint",
+    "pretest": "npm run lint && npm run jscs",
     "test": "jest --coverage",
     "posttest": "npm run compile"
   },
@@ -52,6 +53,7 @@
     "eslint-plugin-react": "^5.1.1",
     "jasmine-reporters": "^2.1.1",
     "jest-cli": "^12.1.1",
+    "jscs": "^3.0.3",
     "react-addons-test-utils": "^15.1.0"
   }
 }
