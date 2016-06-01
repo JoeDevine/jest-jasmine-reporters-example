@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="Example Project" timestamp="2016-06-01T19:28:37" hostname="localhost" time="0.008" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Example Project" name="should have an appropriate header" time="0.007" />
+ <testsuite name="Example Project" timestamp="2016-06-01T21:43:07" hostname="localhost" time="0.009" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Example Project" name="should have an appropriate header" time="0.008" />
  </testsuite>
 </testsuites>
