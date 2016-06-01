@@ -18,7 +18,8 @@ The start script has a corresponding `prestart` script which will test and compi
 One of the powerful feature of Jest is that it automatically mocks dependencies as default. However, this means that we need to make sure we unmock the required modules in order to be able to export test results succesfully using jasmine reporters. 
 With this in mind, below is the Jest config required in `package.json`:
 
-```
+```json
+
 "jest": {
             "collectCoverage": true,
             "setupTestFrameworkScriptFile": "./setup-jasmine-env.js",
@@ -52,4 +53,3 @@ Overview
 └── setup-jasmine-env.js     # Jasmine Reporters config file
 ```
 
-For more information please don't hesitate to reach out, and please feel free to contribute back any bugs found as merge requests.
