@@ -9,5 +9,5 @@ app.use('/', express.static(path.join(__dirname, 'client')));
 process.title = 'jest-jasmine-reporters-example';
 
 app.listen(app.get('port'), function() {
-    console.log('Server is now available on: ' + app.get('port') + '/');
+    console.log('Server is now available on: http://localhost:' + app.get('port') + '/');
 });
