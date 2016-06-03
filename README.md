@@ -47,6 +47,9 @@ Overview
 │   └── /main.js             # Root react file used for compile
 │
 ├── .babelrc                 # Contains Babel configuration
+├── .eslintrc                # Contains ESLint configuration
+├── .jscsrc                  # Contains JSCS configuration
+├── .eslintignore            # Contains files to be ignored by ESLint
 ├── .gitignore               # Defines which files should not be backed up to git
 ├── package.json             # Contains the list of 3rd party libraries and utilities used, as well as all npm scripts to run the project
 ├── server.js                # Node server config file
